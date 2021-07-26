@@ -1,4 +1,4 @@
-import "./analytics.js";
+//import "./analytics.js";
 
 chrome.runtime.onMessage.addListener((message, sender) => {
   if (message['tag'] === "netflix-opensubtitles-message") {
