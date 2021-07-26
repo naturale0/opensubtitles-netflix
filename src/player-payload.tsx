@@ -602,6 +602,8 @@ const MainComponent: React.SFC<{ state: UiState }> = (props) => {
           {subPicker}
           <p>
           You can also upload your own .srt: <input type="file" onChange={onFileUploaded} />
+            
+          If you have already converted to .: <a href="#" onClick={activateClicked} className="netflix-opensubtitles-button">Activate</a>
           </p>
         </div>
 
